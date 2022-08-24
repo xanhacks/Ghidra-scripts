@@ -1,9 +1,7 @@
-#Find XOR in .text section (except: xor REG1, REG1)
+#Find all the XOR opcode where "operand 1 != operand 2" in the .text section.
 #@author xanhacks
 #@category Search
 #@keybinding Ctrl-X
-
-# Docs : https://ghidra.re/ghidra_docs/api/ghidra/program/flatapi/FlatProgramAPI.html
 
 
 if __name__ == "__main__":

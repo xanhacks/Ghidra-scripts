@@ -15,7 +15,7 @@ Ghidra API and Python helps you automate some reverse engineering tasks.
 
 ### find\_xor\_with\_different\_registers.py
 
-Find all the XOR opcode with operand 1 not equals to operand 2 inside the `.text` section.
+Find all the XOR opcode where `operand 1 != operand 2` in the `.text` section.
 
 Example :
 
@@ -31,4 +31,6 @@ find_xor_with_different_registers.py> Finished!
 
 ## Ressources
 
+- [FlatProgramAPI](https://ghidra.re/ghidra_docs/api/ghidra/program/flatapi/FlatProgramAPI.html)
+- [FlatDecompilerAPI](https://ghidra.re/ghidra_docs/api/ghidra/app/decompiler/flatapi/FlatDecompilerAPI.html)
 - [HackOvert/GhidraSnippets](https://github.com/HackOvert/GhidraSnippets)
